@@ -1,0 +1,55 @@
+@charset "utf=8";
+body{
+    background-image: linear-gradient(to right, gray, white);
+}
+h1{
+    background-color: lightgray;
+    height: 50px; /*altura*/
+    width: 300px; /*largura*/
+    border-width: 10px;  /*largura da borda*/
+    border-style: solid; /*estilo da borda*/
+    border-color: red; /*cor da borda*/
+    padding: 20px; /*cria um espaço da borda p dentro*/
+    outline-width: 30px; /*largura da borda*/
+    outline-style: solid; /*estilo da borda*/
+    outline-color: blue; /*cor da borda*/
+    margin: 50px; /*cria um espaço fora da borda*/
+}
+/*
+width = largura
+height = altura
+padding = preenchimento
+border = borda
+outline= contorno
+margin = margem
+*/
+/*
+box-level pula linha / div h1 a h6 p main 
+inline-level segue na linha / span a code small strong em
+*/
+/* shorthands (maozinha)
+border-width: 10px;
+border-style: solid;
+border-color: red;
+border: 10 px solid red;
+
+outline-width: 30px;
+outline-style: solid;
+outline-color: blue;
+outline: 30px solid blue;
+
+padding-top: 10px;
+padding-right: 15px;
+padding-bottom: 20px;
+padding-left: 25px;
+padding: 10px 15px 20px 25px;
+
+margin-top: 0px;
+margin-right: 10px;
+margin-bottom: 20px;
+margin-left: 30px;
+margin: 0px 10px 20px 30px;
+
+caso os valores top bottom ou right left forem iguais dá para fazer da seguinte forma
+margin: 10px 20px;
+*/

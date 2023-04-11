@@ -1,0 +1,77 @@
+@charset "utf=8";
+body{
+    background-image: linear-gradient(to right, #89B3D9, #C2EDF2); /*top bottom left right*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+main{
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: #0b1f3a;
+    width: 800px;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+}
+h1{
+    color: #113059;
+    font-weight: bold;
+}
+p{
+    color:#5670BF;
+    font-weight: bold;
+}
+a{
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:visited{
+    color: green
+}
+a:hover{
+    color: black;
+    text-decoration: underline;
+}
+a:active{
+    color: yellow;
+}
+a::after{
+    content: '  (vídeo)';
+    text-decoration: none;
+    font-weight: normal;
+    color: darkgray;
+}
+.especial{
+    background-color: greenyellow;
+}
+.especial::after{
+    content: '  (vídeo bônus)';
+    text-decoration: none;
+    font-weight: normal;
+    color: darkgray;
+}
+div.pai > p {
+    display:none
+}
+div.pai:hover > p {
+    display:block;
+    background-color: yellow;
+}
+div.filho > p {
+    display:none
+}
+div.filho:hover > p {
+    display:block;
+}
+/* : pseudo classes
+visited ja foi clicado
+hover mouse em cima
+active clicando
+*/
+/* :: pseudo elementos (adicionar conteúdo)
+after do que foi escrito
+before do que foi escrito
+*/
+/*
+> children (filho)
+*/

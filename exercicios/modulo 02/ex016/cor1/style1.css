@@ -1,0 +1,33 @@
+@charset "utf=8";
+body{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    background-image: linear-gradient(white,lightblue);
+    color:black;
+}
+/*
+cores primárias (rgb)
+amarelo vermelho e azul
+
+ cores secundarias
+verde laranja e violeta
+
+cores tercearias (sempre vão ser uma cor com um adendo, tons pastel)
+amarelo-esverdeado  amarelo-alaranjado 
+vermelho-alaranjado vermelho-arroxeado
+azul-arroxeado azul-esverdeado
+
+temperatura de cor
+cores quentes amarelo, vermelho
+cores frias azul, verde
+
+sites de cores
+
+https://color.adobe.com/pt/create/color-wheel
+
+https://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF
+
+https://coolors.co/
+*/

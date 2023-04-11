@@ -1,0 +1,24 @@
+@charset "utf=8";
+/*charset para problemas com acentuação*/
+body{
+    background-color: gray;
+    font-family: arial;
+    font-size: 20px;
+}
+h2{
+    color: white;
+    background-color: darkgray;
+}
+h3{
+    color: darkgray;
+    font-size:1.5em;
+}
+p{
+    text-align: justify;
+    color: lightgray;
+}
+/*
+css externo = use sempre que puder
+css interno = use para pequenas configrações
+css inline = evite usar
+*/

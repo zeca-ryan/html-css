@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com mídias</title>
+</head>
+<body>
+    <h2>Bora ouvir uns audios aqui</h2>
+    <p>Doppio</p>
+    <audio src="audio/jojo-doppio.mp3" preload="metadata" controls autoplay loop></audio>
+    <p>Lucas Vai tomar n...</p>
+    <audio src="audio/lucas-tnc.mp3" preload="metadata" controls autoplay></audio>
+    <p>Site errado?</p>
+    <audio preload="metadata" controls autoplay>
+        <source src="audio/pornhub-intro.mp3" type="audio/mpeg">
+        <source src="audio/pornhub-intro.ogg" type="audio/ogg">
+        <source src="audio/pornhub-intro.wav" type="audio/wav">
+        <p>Infelizmente não foi possível reproduzir, faça o download <a href="audio/pornhub-intro.mp3" download="audio/pornhub-intro.mp3" type="audio/mpeg">aqui</a></p>
+    </audio>
+    <!--
+        metadada = carrega info
+        none = não carrega nada até que clique
+        auto = padrão carrega automaticamente
+    -->
+    <!--MP3 recomendado
+        OGG plano b
+        WAV muito pesado não recomendado
+    -->
+    <!--
+        controls = adiciona os botoes de play e etc
+        autoplay = dá play assim que carrega a pagina
+        loop = vao ficar repetindo assim que acabar o audio
+    -->
+    <h2>Imagens do Volvo FH16</h2>
+    <p>Aqui nos podemos ver o incrível Volvo FH16 carregando 750 toneladas!</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="./imagem/300-volvo.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="./imagem/700-volvo.png" type="image/png">
+        <img src="./imagem/1000-volvo.png" alt="1000-volvo">
+    </picture>
+    <!-- não esquecer do px -->
+</body>
+</html>

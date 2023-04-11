@@ -1,0 +1,63 @@
+@charset "utf=8";
+body{
+    background-image: linear-gradient(to left,#BD632F,#D8973C);
+    font-weight: lighter;
+    /*
+    lighter, normal, bold, bolder
+    100 a 900 também funciona
+    lembrando que nem todas as fontes tem tantas opções
+    */
+    font-style: normal;
+}
+main{
+    background-color: #D8C99B;
+    box-shadow:10px 10px 20px #BD632F;
+    width: 600px;
+    border-radius: 5px;
+    padding: 20px;
+    margin: auto;
+}
+h1{
+    text-align:center;
+    text-decoration: underline;
+    color:#A4243B;
+    text-shadow: 1px 1px 0px #6d1928c4;
+}
+h2{
+    color:#273E47;
+}
+h3{
+    /*font-style: italic;
+    font-weight: normal;
+    font-size: 1em;
+    font-family: 'Courier New', Courier, monospace;*/
+    /*
+    tudo pode ser compactado na shorthand
+    a ordem da tag shorthand = font-style, font-weight, font-size, font-family
+    se não quiser colocar algo, é só não adicionar na linha, mas tem que seguir está ordem
+    */
+    font: italic, normal, 1em, Courier New;
+    color: #273E47;
+}
+p{
+    text-align:justify;
+}
+    /*
+    Medidas absolutas
+    cm, mm, in (polegadas), px, pt, pc
+    
+    Medidas Relativas
+    em, ex, rem, vw, vh, %
+
+    em = define a altura com base na maiuscula da letra
+    ex = define a altura com base na minuscula da letra
+
+    16px = tamanho normal da fonte
+    1em = tamanho normal da fonte
+
+    recomendado usar px e em
+
+    weight = peso
+    height = altura
+    width = largura
+    */

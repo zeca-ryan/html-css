@@ -1,0 +1,61 @@
+@charset "utf=8";
+body{
+    background-image:linear-gradient(to right, gray, white);
+}
+h1{
+    display: block; /*por padrão o h1 é block mas pode se alterar para inline, bloco = linha inteira, inline = trecho de linha, inline-block = inline com caracteristicas de block*/
+    background-color: green;
+    color: white;
+    height: 300px;
+    width: 300px;
+    /*margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;*/
+    margin: 0px auto; /*quando top bottom e right left forem iguais pode simplificar, junto ao auto para centralizar*/
+    /*border-width: 10px;
+    border-style: solid;
+    border-color: #964B00;*/
+    border: 10px solid #964B00;
+    /*outline-width: 10px;
+    outline-style: dashed;
+    outline-color: gray;*/
+    outline: 10px groove gray;
+}
+p{
+    text-align: center;
+}
+a{
+    /*border-width: 0.156em;
+    border-style: solid;
+    border-color: red;*/
+    border: 0.156em solid red;
+    /*margin-top: 5px;
+    margin-right: 0px;
+    margin-bottom: 5px;
+    margin-left: 0px;*/
+    margin: 10px 0px 10px 0px;
+}
+/*
+border-style:
+dashed pontilhado traço
+dotted pontilhado ponto
+double duas linhas
+groove margem 3d
+solid solido
+
+padding-top
+padding-right
+padding-bottom
+padding-left
+sempre em sentido horário partindo do top
+
+margin-top
+margin-right
+margin-botoom
+margin-left
+sempre em sentido horário partindo do top
+auto centraliza a caixa
+
+https://nekocalc.com/px-to-em-converter
+*/

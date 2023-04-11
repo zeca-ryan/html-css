@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeo hospedado localmente</title>
+</head>
+<body>
+    <p>Hospedado no meu próprio servidor?</p>
+    <p>HUM, simples:</p>
+    <video src="midia/hum-mp4.mp4" controls autoplay loop muted width="300px" poster="./imagem/hum-thumb.png"></video>
+    <p>DÁ UMA SUGADA, complexo:</p>
+    <video controls width="300px" poster="./imagem/dauma-thumb.png">
+        <source src="./midia/dauma-mp4.mp4" type="video/mp4">
+        <source src="./midia/dauma-webm.webm" type="video/webm">
+        <p>Sua calculadora não reproduz este vídeo</p>
+    </video>
+    <!-- para o autoplay funcionar no chrome, use muted, para iniciar com aúdio é necessário um script-->
+</body>
+</html>

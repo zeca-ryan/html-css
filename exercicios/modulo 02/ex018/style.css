@@ -1,0 +1,44 @@
+@charset "utf=8";
+body{
+    background-image: linear-gradient(to top, #EC0B43, #E072A4); /*top bottom left right*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+main{
+    background-color: #F9F9F9;
+    border-radius: 5px;
+    box-shadow: #a15275;
+    width: 600px;
+    padding: 20px;
+    margin: auto;
+}
+h1{
+    color: #6883BA;
+}
+p{
+    color: black;
+}
+#principal{
+    color: #3D3B8E;
+    text-align: center;
+}
+.esquerdo{
+    text-align: left;
+}
+.direito{
+    text-align: right;
+}
+.destaque{
+    color: red;
+}
+/* 
+tudo que for id em html vai ser # em css
+tudo que for class em html vai ser . em css
+levando em conta que o id é único, o class pode se repetir
+*/
+/*
+existe uma hierarquia
+id=#
+class=
+h1 h2 p e demais tags
+um sobrepondo o outro
+*/

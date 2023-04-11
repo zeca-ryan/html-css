@@ -1,0 +1,82 @@
+@charset "utf=8";
+body{
+    background-color: lightgreen;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+nav{
+    background-color: green;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.70); /*horizontal vertical espalhamento cor*/
+    margin: 0px;
+    padding: 5px;
+    box-shadow: 0px 2px 5px 2px rgba(0, 85, 0, 0.70); /*horizontal vertical borrar espalhar cor*/
+}
+nav > h1{
+    margin: 0px auto 10px;
+}
+nav > a{
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: bold;
+}
+p{
+    text-align: justify;
+}
+.intro, .service, .address, .vagas{
+    background-color: white;
+    border: 2.5px solid black;
+    border-radius: 5px;
+    width: 800px;
+    margin: 20px auto;
+    padding:10px;
+    box-shadow: 5px 5px 5px rgba(96, 158, 96, 0.70);
+    border-radius: 10px 10px 10px 0px;
+    /*border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 0px; 
+    sempre no sentido horário
+    border-radius: 5px; também funciona, esse modo é para configurar separadamente
+    caso top-left bottom-right e top-right bottom-left sejam iguais dá para simplificar*/
+}
+/*.service{
+    background-color: white;
+    border-radius: 5px;
+}
+.address{
+    background-color: white;
+    border-radius: 5px;
+}
+.vagas{
+    background-color: white;
+    border-radius: 5px;
+}*/
+footer{
+    background-color: green;
+    color: white;
+    box-shadow: 0px -2px 5px 2px rgba(0, 85, 0, 0.70); /*horizontal vertical borrar espalhar cor*/
+}
+footer > p{
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+    font-weight: bold;
+    margin: 5px auto 0px;
+    padding: 5px;
+}
+/*.bola{
+    background-color: white;
+    color: black;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 50%;
+}
+.bola > p{
+    margin: 40px 0px;
+    text-align: center;
+    font-weight: bold;
+}*/

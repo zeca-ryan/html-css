@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes externas 2</title>
+    <style>
+        @font-face {
+            font-family:'gotica';
+            src: url('./fonts/CantaraGotica.ttf') format(truetype);
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family:'arabe';
+            src: url('./fonts/Gulzar-Regular.ttf') format(truetype);
+            font-weight: normal;
+            font-style: normal;
+        }
+        /*
+        existem os seguintes formatos/tipos
+        opentype otf
+        truetype ttf
+        embeded-opentype
+        trueype-aat (apple advanced typography)
+        svg
+        */
+    </style>
+</head>
+<body>
+    <h1>Usando fontes baixadas</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, recusandae optio pariatur dolorum omnis ratione eos, possimus dignissimos atque provident aliquam minima vitae sequi beatae perspiciatis sunt nobis. Nihil, esse?</p>
+    <h1 style="font-family:'arabe';">سوف يأخذها لوكاس في المؤخرة</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod nisi suscipit accusamus repellendus est voluptatum delectus voluptate quisquam itaque iusto aperiam et facilis illo officiis, aspernatur odit in cumque illum.</p>
+    <h1 style="font-family:'gotica';">Gotica Rabuda</h1>
+</body>
+</html>
