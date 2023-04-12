@@ -35,7 +35,7 @@ header{
     background-image: linear-gradient(to bottom, var(--cor4), var(--cor5));
     text-shadow: 2px 2px 0px var(--cor7);
     min-height: 150px;
-    padding-top: 40px;
+    margin-top: 40px;
 }
 header > h1{
     color: var(--cor6);
@@ -43,7 +43,7 @@ header > h1{
     font-weight: normal;
     text-align: center;
     font-size: 3em;
-    margin-bottom: 20px;
+    padding-bottom: 20px;
 }
 header > p {
     color: var(--cor6);
@@ -54,7 +54,7 @@ header > p {
     padding-left: 20px;
     padding-right: 20px;
     margin: auto;
-    margin-bottom: 20px;
+    padding-bottom: 50px;
 }
 h1{
     font-family: var(--fonte2);
