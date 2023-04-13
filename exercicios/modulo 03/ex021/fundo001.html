@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundos</title>
+    <style>
+        body{
+            background-image: url(image/wallpaper001.jpg);
+            text-align: center;
+        }
+        p{
+            text-align: justify;
+        }
+        div.quadrado{
+            display: inline-block;
+            border: 2px solid black;
+            border-radius: 10px;
+            width: 300px;
+            height: 300px;
+            margin: 5px;
+            padding: 20px;
+        }
+        div#q1{
+            background-color: lightgreen;
+        }
+        div#q2{
+            background-image: linear-gradient(to bottom, yellow, red);
+
+        }
+        div#q3{
+            background-image: url(./image/pattern003.png);
+        }
+    </style>
+</head>
+<body>
+    <div class="quadrado" id="q1">
+        <h2>Quadrado 01</h2>
+        <p>Podemos observar que este quadrado está verde claro, utilizando o codigo background-color</p>
+    </div>
+    <div class="quadrado" id="q2">
+        <h2>Quadrado 02</h2>
+        <p>Esse está com um degrade, utilizando o codigo background-image junto a linear gradient e "to bottom, yellow, red"</p>
+    </div>
+    <div class="quadrado" id="q3">
+        <h2>Quadrado 03</h2>
+        <p>Primeira experiencia utilizando imagens como fundo, foi divertido e já conseguimos colocar o fundo do site com imagens também</p>
+    </div>
+</body>
+</html>
