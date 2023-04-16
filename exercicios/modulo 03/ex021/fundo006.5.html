@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundo 007</title>
+    <style>
+        body{
+            background-color: white;
+        }
+        .quadrado{
+            display: inline-block;
+            width: 300px;
+            height: 300px;
+            text-align: center;
+            border: 1px solid black;
+        }
+        #q1{
+            background: blue url(./image/pattern001.png) center center repeat scroll;
+        }
+        #q2{
+            background: red url(./image/pattern002.png) center center repeat scroll
+        }
+        #q3{
+            background: green url(./image/pattern003.png) center center repeat scroll
+        }
+        h1{
+            background-color: white;
+        }
+        /*
+        shorthand background
+        nesta ordem: color image position repeat (size) attachment
+        size = cover, mas não funciona 100%
+
+        background: black url(./image/pattern003.png) center center no-repeat cover scroll
+        */
+    </style>
+</head>
+<body>
+    <div class="quadrado" id="q1">
+        <h1>Teste 01</h1>
+    </div>
+    <div class="quadrado" id="q2">
+        <h1>Teste 02</h1>
+    </div>
+    <div class="quadrado" id="q3">
+        <h1>Teste 03</h1>
+    </div>
+</body>
+</html>
