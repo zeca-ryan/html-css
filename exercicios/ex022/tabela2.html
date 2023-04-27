@@ -4,46 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tabelas</title>
+    <title>Tabela 2</title>
     <style>
         body{
             font-family: Arial, Helvetica, sans-serif;
         }
         table{
             width: 400px;
+            height: 200px;
             border-collapse: collapse; /*separate é o padrão*/
         }
         td{
             border: 1px solid black;
             padding: 8px;
+            text-align: center; /*alinhamento horizontal*/
+            vertical-align: top;
+            /*
+            alinhamento vertical 
+            middle é o padrão
+            */
         }
-        .cabeça{
-            background-color: darkblue;
-            color: white;
-        }
-        .corsim{
-            background-color: lightblue;
+        .numero{
+            text-align: right;
         }
     </style>
 </head>
 <body>
-    <h1>Minha primeira tabela</h1>
-    <!--
-        NÃO USE TABELA PARA ESTRUTURAR SEU SITE!!!
-
-        HIERARQUIA DE TABELAS (simples)
-        TABLE = tabela
-            TABLE ROW = linha de tabnela
-                TABLE HEADER = cabeçalho de tabela
-                TABLE DATA = dados de tabela
-        tr = table row
-        th = tabke header
-        td = table data
-
-        É IMPORTANTE SEGUIR A ORDEM
-    -->
+    <h1>Minha segunda tabela</h1>''
     <table>
-        <tr class="cabeça">
+        <tr>
             <th>DADO 1</th>
             <th>DADO 2</th>
             <th>SOMA</th>
@@ -51,27 +40,22 @@
         <tr>
             <td>10</td>
             <td>10</td>
-            <td>20</td>
+            <td class="numero">20</td>
         </tr>
-        <tr class="corsim">
+        <tr>
             <td>12</td>
             <td>18</td>
-            <td>30</td>
+            <td class="numero">30</td>
         </tr>
         <tr>
             <td>21</td>
             <td>7</td>
-            <td>28</td>
-        </tr>
-        <tr class="corsim">
-            <td>64</td>
-            <td>64</td>
-            <td>128</td>
+            <td class="numero">28</td>
         </tr>
         <tr>
-            <td>1</td>
-            <td>1</td>
-            <td>2</td>
+            <td>64</td>
+            <td>64</td>
+            <td class="numero">128</td>
         </tr>
     </table>
 </body>
