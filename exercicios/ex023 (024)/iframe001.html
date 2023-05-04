@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iframe</title>
+    <style>
+        iframe{
+            width: 600px;
+            height: 600px;
+        }
+        /*css é sempre a cima de html5 no quesito personalizar*/
+    </style>
+</head>
+<body>
+    <h2>Testando o uso do iframe</h2>
+
+    <p>Acessando o <a href="https://www.cursoemvideo.com" hreflang="pt-br" target="_blank" rel="external">Curso em Vídeo</a> para aprender a programar</p>
+
+    <h2>O Uso do iframe</h2>
+
+    <p>Acessando o 
+    <!--o tamanho padrão do iframe é 300x150-->
+    <iframe src="https://www.cursoemvideo.com" frameborder="0" height="150" width="300" scolling="auto">
+    <!--
+    auto - padrão
+    yes - mesmo que caiba ele cria barra para rolar
+    no - ele não deixa rolar
+    -->
+    <a href="https://www.cursoemvideo.com" hreflang="pt-br" target="_Blank" rel="external">Curso em Video</a>
+    </iframe>
+
+    para aprender a programar</p>
+
+    <p>O Repositório do
+    
+    <iframe src="https://github.com/gustavoguanabara" frameborder="0">
+        <a href="https://github.com/gustavoguanabara" hreflang="pt-br" target="_Blank" rel="external">Professor Guanabara</a>
+    </iframe>
+
+    é bem legal também (GitHub tem proteção contra iframe)</p>
+    <!--
+    <p>Vamos testar o site do <iframe src="https://www.google.com" frameborder="0"></iframe> no iframe, como podemos observar ele tem uma segurança e acaba não funcionando</p>
+    -->
+</body>
+</html>

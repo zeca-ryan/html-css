@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carregando Iframes de forma segura</title>
+</head>
+<body>
+    <h1>Meu site principal</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt aliquid magni vero corporis reprehenderit doloremque, aliquam optio minima expedita laborum magnam praesentium odio maxime, delectus blanditiis, cupiditate quaerat natus vitae? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam adipisci ipsam expedita impedit, quia excepturi commodi temporibus voluptates non fugiat nostrum eum deleniti accusantium, corrupti officia eaque sint quas eveniet.</p>
+    <iframe src="./paginas-extras/pag004.html" sandbox="sandbox" referrerpolicy="no-referer-when-downgrade">
+        <p>Seu navegador não é compatível</p>
+    </iframe>
+    <!--"no-referer-when-downgrade" é o padrão, alterar para "no-referer" impede a captura de dados-->
+    <!--sandbox impede a captura de dados-->
+    <!--este combo deixa seu site mais seguro-->
+    <!--
+    "allow-same-origin" coisas da mesma origem
+    "allow-forms" permite formularios 
+    "allow-scripts" permite scripts
+    -->
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi deleniti perferendis placeat facere perspiciatis soluta voluptas porro eos deserunt excepturi consequuntur numquam vel ipsum, provident ut. Veritatis fugiat quo laboriosam? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, maiores pariatur. Quasi harum deserunt est sapiente commodi quos illo voluptate autem asperiores. Fugit dolore, dicta magnam temporibus deserunt eum obcaecati!</p>
+</body>
+</html>
