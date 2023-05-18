@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário 07</title>
+</head>
+<body>
+    <h1>Formulário 07</h1>
+    <form action="cadastro.php" method="get">
+        <p>
+            <label for="iest">Estado</label>
+            <select name="estado" id="iest">
+                <option value="">--- Escolha ---</option>
+                <optgroup label="Região Sudeste">
+                    <option value="MG">Minas Gerais</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="SP">São Paulo</option>
+                </optgroup>
+                <optgroup label="Região Nordeste">
+                    <option value="MA">Maranhão</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                </optgroup>
+            </select>
+        </p>
+        <p>
+            <label for="iprof">Profissão</label>
+            <input type="text" name="prof" id="iprof" list="lstprof">
+            <datalist id="lstprof">
+                <optgroup label="Predial">
+                    <option value="AG">Ajudante Geral</option>
+                </optgroup>
+                <optgroup label="Mecanica">
+                    <option value="ME">Mecanico Oficial</option>
+                </optgroup>
+                <optgroup label="Operação">
+                    <option value="MT">Motorista</option>
+                    <option value="CB">Cobrador</option>
+                </optgroup>
+            </datalist>
+        </p>
+        <p>
+            <label for="isug">Sugestões: </label><br>
+            <textarea name="sug" id="isug" cols="30" rows="10"></textarea>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+    <!-- 
+        se colocar selected dentro da tag option ela vai ser pre selecionada, desta forma:
+        <option value="SP" selected>São Paulo</option>
+        obs: optgroup não funciona bem em datalist
+        lembrando novamente, o metodo get tem limitação de 3000 bits
+    -->
+</body>
+</html>
