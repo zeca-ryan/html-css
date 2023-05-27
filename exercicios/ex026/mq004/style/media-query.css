@@ -1,3 +1,105 @@
 @charset "utf-8";
 
 /*todas as demais midias*/
+
+/*
+(Typical) Device breakpoints sempre se atualiza, é bom pesquisar um mais atual
+
+Mobile devices – 320px — 480px.
+iPads, Tablets – 481px — 768px.
+Small screens, laptops – 769px — 1024px.
+Desktops, large screens – 1025px — 1200px.
+Extra large screens, TV – 1201px, and more.
+
+
+como já foi feito o mobile first, isto pode ser ignorado
+
+@media screen and (min-width: 320px) and (max-width: 480px){
+
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px)
+*/
+
+
+@media screen and (min-width: 769px) and (max-width: 1024px){
+    /*TABLET*/
+
+    body{
+        background-image: url(../imagem/back-tablet.jpg);
+    }
+
+    img#phone{ display: none;}
+    img#tablet{ display: block;}
+    img#print{ display: none;}
+    img#pc{ display: none;}
+    img#tv{ display: none;}
+}
+
+
+@media print {
+    /*PRINT*/
+    
+    /* NÃO APARECE NA IMPRESSÃO
+    body{
+        background-image: url(../imagem/back-print.jpg);
+    }
+    */
+
+    *{
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    main{
+        border: 2px solid black
+    }
+
+    main h1{
+        text-shadow: none;
+        color: black;
+    }
+
+    main::after{
+        display: block;
+        content: 'Versão para impressão';
+        text-decoration: overline;
+        text-align: center;
+        
+    }
+
+    img#phone{ display: none;}
+    img#tablet{ display: none;}
+    img#print{ display: block;}
+    img#pc{ display: none;}
+    img#tv{ display: none;}
+}
+
+
+@media screen and (min-width: 1025px) and (max-width: 1200px){
+    /*PC*/
+
+    body{
+        background-image: url(../imagem/back-pc.jpg);
+    }
+
+    img#phone{ display: none;}
+    img#tablet{ display: none;}
+    img#print{ display: none;}
+    img#pc{ display: block;}
+    img#tv{ display: none;}
+}
+
+
+@media screen and (min-width: 1201px){
+    /*TV*/
+
+    body{
+        background-image: url(../imagem/back-tv.jpg);
+    }
+
+    img#phone{ display: none;}
+    img#tablet{ display: none;}
+    img#print{ display: none;}
+    img#pc{ display: none;}
+    img#tv{ display: block;}
+}
