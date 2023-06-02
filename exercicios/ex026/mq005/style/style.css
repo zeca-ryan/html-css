@@ -17,7 +17,7 @@ header > h1{
 }
 span#burguer{
     display: block;
-    background-color: gray;
+    background-color: black;
     color: white;
     text-align: center;
     padding: 10px;
@@ -38,12 +38,13 @@ menu > ul > li > a{
     padding: 10px;
     text-decoration: none;
     text-align: center;
-    background-color: gray;
+    background-color: black;
     color: white;
     border-top: 1px solid rgba(0, 0, 0, 0.500);
 }
 menu > ul > li > a:hover{
-    background: black;
+    background: white;
+    color: black;
 }
 main{
     width: 90vw;
