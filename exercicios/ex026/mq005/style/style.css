@@ -4,6 +4,7 @@
     margin: 0px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
+    max-height: 100vh; /*tentativa de deixar o footer embaixo*/
 }
 body, html{
     background-color: lightgray;
@@ -63,6 +64,9 @@ article > p{
 }
 footer{
     background-color: darkgray;
+    text-align: center;
+    padding: 10px;
+    margin-top: 50vh; /*tentativa de deixar o footer embaixo*/
 }
 footer > p{
     color: black;
